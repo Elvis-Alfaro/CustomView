@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.customview_library.busqueda_list.custom_view.CustomSearchList
+        android:id="@+id/csl_lista"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:num_digits_start_search="3"/>
+
+    <Button
+        android:id="@+id/btn_aceptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aceptar"
+        android:onClick="agregar"/>
+
+</LinearLayout>
